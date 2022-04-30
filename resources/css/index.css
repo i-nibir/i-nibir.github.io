@@ -1,41 +1,52 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    font-family: "poppins" sans-serif;
+    /* font-family: "poppins", sans-serif; */
     box-sizing: border-box;
 }
 
-.head{
-    height: 100vh;
-    width: 100%;
-    padding: 0 8%;
-    background: #080008;
-    position: relative;
+body {
+    background-color: #374442;
 }
 
-nav{
+.head {
+    height: 100%;
+    width: 100%;
+    padding: 0 5%;
+    background: #080008;
+    position: relative;
+    font-family: 'Oswald', sans-serif;
+    font-size: larger;
+}
+
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.logo{
+
+.logo {
     width: 140px;
 }
-.nav-links{
+
+.nav-links {
     padding: 28px 0;
 }
-.nav-links li{
+
+.nav-links li {
     display: inline-block;
     margin: 0 15px;
 }
-.nav-links li a{
+
+.nav-links li a {
     text-decoration: none;
     color: #fff;
     padding: 5px 0;
     position: relative;
-    
+
 }
-.nav-links li a::after{
+
+.nav-links li a::after {
     content: '';
     background: #ff3d00;
     width: 0;
@@ -45,17 +56,20 @@ nav{
     left: 0;
     transition: width 0.5s;
 }
-.nav-links li a:hover::after{
+
+.nav-links li a:hover::after {
     width: 100%;
 }
-.btn{
+
+.btn {
     background: #880707;
     color: rgb(10, 8, 9);
     padding: 10px 30px;
     border-radius: 3px;
     cursor: pointer;
 }
-.content{
+
+.content {
     position: absolute;
     left: 50%;
     top: 50%;
@@ -63,9 +77,11 @@ nav{
     max-width: 900PX;
     transform: translate(-50%, -50%);
     text-align: center;
-    color: rgb(224, 228, 230);
+    color: white;
+    font-family: 'Water Brush', cursive;
 }
-.back-video{
+
+.back-video {
     position: relative;
     width: 100%;
 }
