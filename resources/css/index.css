@@ -73,13 +73,29 @@ nav {
     position: absolute;
     left: 50%;
     top: 50%;
-    width: 90%;
-    max-width: 900PX;
+    width: 100%;
+    /* max-width: 900PX; */
     transform: translate(-50%, -50%);
     text-align: center;
     color: white;
-    font-family: 'Water Brush', cursive;
+    font-family: 'Water Brush', 'cursive';
 }
+
+a {
+    color: #ffffff;
+}
+
+
+.bottom_links {
+    /* background-color: rgb(189, 50, 50); */
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
 
 .back-video {
     position: relative;
