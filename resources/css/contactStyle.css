@@ -1,0 +1,41 @@
+.socialCon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+}
+
+.socialIcon {
+  padding: 10px;
+  font-size: xx-large;
+  color: aliceblue;
+  transition: 0.5s ease-in-out;
+  animation-name: iconAnim;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+.socialCon a {
+  text-decoration: none;
+  color: inherit;
+}
+
+@keyframes iconAnim {
+  0% {
+    transform: scale(1);
+    color: lightblue;
+  }
+  50% {
+    transform: scale(1.2);
+    color: rgb(57, 221, 227);
+  }
+  100% {
+    transform: scale(1);
+    color: white;
+  }
+}
