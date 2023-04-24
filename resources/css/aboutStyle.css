@@ -1,0 +1,43 @@
+body {
+  background-color: white;
+  margin: 5px;
+  padding: 5px;
+}
+
+.introCon {
+  padding: 10px;
+}
+
+.intro {
+  padding: 20px;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: #000000;
+  text-align: center;
+}
+img {
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+}
+
+.highlight {
+  color: #ff0000;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: larger;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 600px) {
+  img {
+    float: none;
+    margin: 0 auto;
+    display: block;
+  }
+  .introCon {
+    text-align: center;
+  }
+}
